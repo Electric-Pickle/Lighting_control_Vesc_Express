@@ -6420,7 +6420,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 22.86) (xy 52.07 20.955)
+			(xy 52.07 20.32) (xy 52.07 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6527,6 +6527,16 @@
 			(type default)
 		)
 		(uuid "2f382d97-ec6c-4ff5-9f86-22a955b9a435")
+	)
+	(wire
+		(pts
+			(xy 179.07 130.81) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f511fc9-53f1-47ed-9b1d-ed08293c9900")
 	)
 	(wire
 		(pts
@@ -6857,6 +6867,16 @@
 			(type default)
 		)
 		(uuid "63b999cb-082a-487d-87a8-bf44a880cdc0")
+	)
+	(wire
+		(pts
+			(xy 163.83 130.81) (xy 163.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ee0389-5d90-482a-bc28-91c6fb2b5c9d")
 	)
 	(wire
 		(pts
@@ -8058,6 +8078,28 @@
 			)
 		)
 	)
+	(global_label "en"
+		(shape input)
+		(at 52.07 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dd84ca1-5f8f-4a8c-affe-93b47144b792")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 15.0972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_TX"
 		(shape input)
 		(at 82.55 135.89 180)
@@ -8230,6 +8272,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "en"
+		(shape input)
+		(at 153.67 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ac67281-059a-4c8c-b2a8-1f82c286d5bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 79.8672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8676,6 +8740,28 @@
 	)
 	(global_label "en"
 		(shape input)
+		(at 179.07 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b98ce220-cca9-4202-a6b6-225bbe91319e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 125.5872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "en"
+		(shape input)
 		(at 37.465 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8841,6 +8927,28 @@
 		(uuid "e5b6542b-b23b-41ac-832e-ff2af0f6f03b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.4322 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "en"
+		(shape input)
+		(at 163.83 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eec9b3b3-0bb0-4356-a6b0-dda8905f8f93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 125.5872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,78 +9466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 52.07 20.955 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19a1ab6d-e4db-41e7-b731-af0e275b2816")
-		(property "Reference" "#PWR011"
-			(at 52.07 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 52.07 15.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "490bc057-f03d-437c-8ca2-a85f73776ec4")
-		)
-		(instances
-			(project "Simple_vesc_express control"
-				(path "/b43a8975-0592-47b8-8ce4-5dbd13a594c9"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-			(project "ESP32_CAN"
-				(path "/ebdb766e-fc18-4146-bbb3-666fc68f5aa9"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 247.65 48.26 270)
@@ -9748,72 +9784,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 179.07 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "224ae662-fa03-4c2c-969a-aeae754bc44f")
-		(property "Reference" "#PWR06"
-			(at 179.07 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 179.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbfb30dc-2815-4d95-9f57-e064524a3742")
-		)
-		(instances
-			(project "Simple_vesc_express control"
-				(path "/b43a8975-0592-47b8-8ce4-5dbd13a594c9"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 271.78 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9873,72 +9843,6 @@
 			(project "Simple_vesc_express control"
 				(path "/b43a8975-0592-47b8-8ce4-5dbd13a594c9"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 163.83 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2645c8ce-9cea-4dfc-8b44-f1c672277399")
-		(property "Reference" "#PWR023"
-			(at 163.83 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b6265b3-b369-4932-abe5-9dbfeb4676ec")
-		)
-		(instances
-			(project "Simple_vesc_express control"
-				(path "/b43a8975-0592-47b8-8ce4-5dbd13a594c9"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10859,72 +10763,6 @@
 			(project "Simple_vesc_express control"
 				(path "/b43a8975-0592-47b8-8ce4-5dbd13a594c9"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 153.67 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d620c3c-c813-4609-aeb0-736614070bdf")
-		(property "Reference" "#PWR03"
-			(at 153.67 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 153.67 81.5881 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ae14e50-6337-4170-b170-61d7ab9cbcb4")
-		)
-		(instances
-			(project "Simple_vesc_express control"
-				(path "/b43a8975-0592-47b8-8ce4-5dbd13a594c9"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
