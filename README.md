@@ -1,5 +1,7 @@
 Lighting control Board For Vesc Based Pev's
 
+THIS Branch in Being Developed (UNTESTED)
+
 Features
 * onboard 5v2a buck 160v in (turned on and off via CAN or SERIAL ports)
 * 3 level shifted LED ws2812 or similar outputs, + 2 onboard 
